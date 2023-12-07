@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div:first-child {
+    position: absolute;
+    /*z-index: 2;*/
+    display: flex;
+    width: 1103px;
+    height: 55.46px;
+    padding: 25px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#headerStuff {
+    width: 234px;
+    height: 15px;
+    display: flex;
+    /*justify-content: flex-start;*/
+    /*padding-left: 15px;*/
+}
+
+#headerStuff a {
+    text-decoration: none;
+    color: var(--elseBackground);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+    color: white
+}
+
+body {
+    background-color: dimgray;
+}
+
+#Getschooled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*position: absolute;*/
+    top: 215px;
+}
+
+#Getschooled h1 {
+    font-size: 120px;
+    margin-bottom: 10px;
+    color: white
+}
+
+#Getschooled p {
+    margin-top: 5px;
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+    word-spacing: 40px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: white;
+}
+
+#Getschooled button {
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+}
