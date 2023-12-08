@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('css_advanced/source-sans-pro/*') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -28,7 +35,8 @@ header div:first-child {
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 15px;
-    color: white
+    color: white;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -46,24 +54,66 @@ body {
 #Getschooled h1 {
     font-size: 120px;
     margin-bottom: 10px;
-    color: white
+    color: white;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 #Getschooled p {
     margin-top: 5px;
-    width: 250px;
+    width: 300px;
     height: 50px;
     margin-left: 30px;
-    word-spacing: 40px;
+    word-spacing: 60px;
     margin-bottom: 1px;
     font-weight: bold;
     color: white;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 #Getschooled button {
     border-radius: 30px;
-    background-color: blueviolet;
+    background-color: rgb(160, 72, 242);
     color: white;
     padding: 15px 30px;
     font-size: 15px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    border-style: none;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#pros {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 23px;
+    margin-left: 50px;
+}
+#pros .highlighted-word {
+    color:rgb(181, 117, 241);
+}
+
+#persons-container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.persons {
+    text-align: center;
+    margin: 10px;
+    margin-top: 100px;
+}
+
+#persons-container h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#persons-container p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
 }
