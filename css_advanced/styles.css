@@ -35,6 +35,8 @@ body.background-main{
 
 .banner {
     background-image: url(images/background.png);
+    padding: 20px;
+    margin: 0;
 }
 
 #Getschooled {
