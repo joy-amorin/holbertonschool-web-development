@@ -276,3 +276,39 @@ p {
     margin-top: 1px;
     margin-left: 30px;
 }
+
+.FAQ {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.FAQ h1 {
+    margin-bottom: 30px;
+}
+
+.row_block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.item_block {
+    width: 31%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.item_block h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.item_block p {
+    color: #666;
+    font-size: 16px;
+}
+
+
