@@ -212,3 +212,67 @@ p {
     /*font-family: "Assistant", Helvetica, sans-serif;*/
     font-style: italic;
 }
+
+.membership {
+    background-color: #071629;
+    padding-top: 50px;
+}
+
+.membership h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Assistant", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 100px;
+}
+
+.membership-container > div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.membership-container img {
+    margin: 0 auto;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.membership-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+
+} 
+
+.membership-container h2 {
+        color: white;
+}
+
+.membership .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 50px;
+    
+}
+
+.membership .button button {
+    border-radius: 30px;
+    background-color: rgb(160, 72, 242);
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    border-style: none;
+    margin-top: 1px;
+    margin-left: 30px;
+}
