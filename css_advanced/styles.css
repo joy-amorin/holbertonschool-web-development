@@ -148,5 +148,67 @@ p {
 }
 
 #quoteid p:first-child {
-    margin-bottom: 100px; /* Ajusta el valor según tus preferencias */
+    margin-bottom: 100px;
+}
+#video-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+#video-container > div {
+    margin-right: 30px; 
+}
+  
+   
+#popular h1 {
+    display: flex;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: black;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#purple-word {
+    color:rgb(181, 117, 241);
+    word-spacing: 5px;
+
+}
+
+.block_autor {
+    display: flex;
+    align-items: center; 
+}
+
+.block_autor img {
+    margin-right: 10px; 
+}
+
+.block_autor h3 {
+    color: rgb(181, 117, 241);
+    font-family: "Assistant", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating img {
+    margin-right: 10px;
+}
+
+.rating p {
+    margin-top: -5px;
+    color: rgb(181, 117, 241) !important;
+
+}
+
+.video-section p {
+    color: gray;
+    /*font-family: "Assistant", Helvetica, sans-serif;*/
+    font-style: italic;
 }
